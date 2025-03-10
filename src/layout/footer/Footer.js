@@ -277,7 +277,7 @@ const Footer = () => {
                 rel="noreferrer"
               >
                 <div className="relative w-32 h-10">
-                  <Image
+                  {/* <Image
                     // width={110}
                     // height={40}
                     width="0"
@@ -289,7 +289,8 @@ const Footer = () => {
                       "/logo/logo-color.svg"
                     }
                     alt="logo"
-                  />
+                  /> */}
+                  <div style={{ fontWeight: 'bold', fontSize: '24px', color: 'white' }}>Cryptshoper</div>
                 </div>
               </Link>
               <p className="leading-7 font-sans text-sm text-gray-600 mt-3">
