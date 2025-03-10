@@ -30,12 +30,13 @@ const Category = () => {
         <div className="w-full flex justify-between items-center h-16 px-6 py-4 bg-emerald-500 text-white border-b border-gray-100">
           <h2 className="font-semibold font-serif text-lg m-0 text-heading flex align-center">
             <Link href="/" className="mr-10">
-              <Image
+              {/* <Image
                 width={100}
                 height={38}
                 src="/logo/logo-color.svg"
                 alt="logo"
-              />
+              /> */}
+              <div style={{ fontWeight: 'bold', fontSize: '24px', color: 'white' }}>Cryptshoper</div>
             </Link>
           </h2>
           <button

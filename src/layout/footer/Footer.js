@@ -290,7 +290,7 @@ const Footer = () => {
                     }
                     alt="logo"
                   /> */}
-                  <div style={{ fontWeight: 'bold', fontSize: '24px', color: 'white' }}>Cryptshoper</div>
+                  <div style={{ fontWeight: 'bold', fontSize: '24px', color: 'black' }}>Cryptshoper</div>
                 </div>
               </Link>
               <p className="leading-7 font-sans text-sm text-gray-600 mt-3">
